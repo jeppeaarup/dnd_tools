@@ -3,8 +3,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="DnD 2024 tools",
-    page_icon="⚔️",
-    layout="wide",
+    page_icon="⚔️"
 )
 
 attack_page = st.Page("pages/weapon_calc.py", title="Attack calculator", icon="⚔️")

@@ -96,7 +96,7 @@ def compute_attack_table(dex_mod, strength_mod, prof_bonus, selected_weapons):
 
 
 # Page title
-st.title("Attack Calculator")
+st.title("Attack calculator")
 
 # Character stats in the sidebar
 with st.sidebar:

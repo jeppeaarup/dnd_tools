@@ -60,7 +60,7 @@ def buy_score_table():
     return scores, total_cost, remaining
 
 # Inputs 
-st.title("Point buy calculator")
+st.title("Ability score calculator")
 
 st.subheader("Step 1: Point buy")
 
@@ -81,6 +81,8 @@ st.session_state["ability_scores"] = scores
 st.divider()
 st.subheader("Step 2: Adjust ability scores")
 st.markdown("After assigning your ability scores, adjust them according to your background. Your background lists three abilities; increase one of those scores by 2 and a different one by 1, or increase all three by 1")
+
+bonuses = {}
 
 if over_budget:
     st.warning("Fix your point buy total before choosing a background.")
